@@ -5,6 +5,7 @@ terraform {
       version = "~> 3.0"
     }
   }
+  required_version = ">= 1.0.0"
 }
 
 provider "azurerm" {
@@ -18,6 +19,6 @@ terraform {
     storage_account_name = "tfstate5ue8kcwm"
     container_name       = "tfstate"
     key                  = "prod.app.tfstate"
-    use_oidc = true
+    use_oidc             = true
   }
 }
