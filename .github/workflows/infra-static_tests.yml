@@ -1,4 +1,4 @@
-"name: 'Terraform Static Tests'
+name: 'Terraform Static Tests'
 
 on:
   push:
